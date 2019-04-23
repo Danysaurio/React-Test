@@ -1,9 +1,7 @@
 import React from "react";
-function popo(){
-    return ["hola", " bebe"]
-}
+
 const person = (props)=>{
-    return <p>I'm a person {props.name} and I am {props.age*4} years old!</p>
-}; 
+    return <h1>Hola bebe {props.name} and I am {props.age} years old</h1>
+}
 
 export default person;
